@@ -1,0 +1,11 @@
+JPetStorePages\WelcomePage.class
+JPetStorePages\SignUpPage.class
+JpetStoreTests\BaseTest.class
+JpetStoreTests\LoginTest.class
+JPetStorePages\PaymentPage.class
+JPetStorePages\ShoppingCartPage.class
+ExtentTest\GoogleDemo.class
+JPetStorePages\HomePage.class
+JPetStorePages\LoginPage.class
+JpetStoreTests\BuyFishProduct.class
+JPetStorePages\FishPage.class
