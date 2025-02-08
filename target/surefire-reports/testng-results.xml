@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[SignIn is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Username :: adminahhFCj0haK]]>
+    </line>
+    <line>
+      <![CDATA[Account Successfully Created]]>
+    </line>
+    <line>
+      <![CDATA[ActualMsg:: Welcome Michael! :: + ExpectedMsg:: Welcome Michael!]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-02-08T14:30:19 IST" name="Surefire suite" finished-at="2025-02-08T14:30:41 IST" duration-ms="21455">
+    <groups>
+    </groups>
+    <test started-at="2025-02-08T14:30:19 IST" name="Surefire test" finished-at="2025-02-08T14:30:41 IST" duration-ms="21455">
+      <class name="JpetStoreTests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:JpetStoreTests.LoginTest@1817d444]" started-at="2025-02-08T14:30:19 IST" name="setup" finished-at="2025-02-08T14:30:25 IST" duration-ms="5345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registrationForm()[pri:0, instance:JpetStoreTests.LoginTest@1817d444]" started-at="2025-02-08T14:30:25 IST" name="registrationForm" finished-at="2025-02-08T14:30:39 IST" duration-ms="13950" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SignIn is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Username :: adminahhFCj0haK]]>
+            </line>
+            <line>
+              <![CDATA[Account Successfully Created]]>
+            </line>
+            <line>
+              <![CDATA[ActualMsg:: Welcome Michael! :: + ExpectedMsg:: Welcome Michael!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registrationForm -->
+        <test-method is-config="true" signature="close()[pri:0, instance:JpetStoreTests.LoginTest@1817d444]" started-at="2025-02-08T14:30:39 IST" name="close" finished-at="2025-02-08T14:30:41 IST" duration-ms="2123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- JpetStoreTests.LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
