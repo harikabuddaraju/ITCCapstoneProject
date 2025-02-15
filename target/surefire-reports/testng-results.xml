@@ -5,7 +5,7 @@
       <![CDATA[SignIn is clicked]]>
     </line>
     <line>
-      <![CDATA[Username :: admin06c2xPygoR]]>
+      <![CDATA[Username :: adminIF8wgzx8dP]]>
     </line>
     <line>
       <![CDATA[Account Successfully Created]]>
@@ -17,43 +17,43 @@
       <![CDATA[Thank you, your order has been submitted.]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-02-15T09:36:55 IST" name="Suite" finished-at="2025-02-15T09:37:55 IST" duration-ms="60071">
+  <suite started-at="2025-02-15T11:50:55 IST" name="Suite" finished-at="2025-02-15T11:51:53 IST" duration-ms="57427">
     <groups>
     </groups>
-    <test started-at="2025-02-15T09:36:55 IST" name="Test" finished-at="2025-02-15T09:37:55 IST" duration-ms="60071">
+    <test started-at="2025-02-15T11:50:55 IST" name="Test" finished-at="2025-02-15T11:51:53 IST" duration-ms="57427">
       <class name="JpetStoreTests.BuyFishProduct">
-        <test-method is-config="true" signature="setup()[pri:0, instance:JpetStoreTests.BuyFishProduct@5c6648b0]" started-at="2025-02-15T09:36:55 IST" name="setup" finished-at="2025-02-15T09:37:03 IST" duration-ms="7654" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:JpetStoreTests.BuyFishProduct@642a7222]" started-at="2025-02-15T11:50:55 IST" name="setup" finished-at="2025-02-15T11:51:02 IST" duration-ms="6796" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginAndClickOnFishProduct()[pri:0, instance:JpetStoreTests.BuyFishProduct@5c6648b0]" started-at="2025-02-15T09:37:25 IST" name="loginAndClickOnFishProduct" finished-at="2025-02-15T09:37:32 IST" duration-ms="7018" status="PASS">
+        <test-method signature="loginAndClickOnFishProduct()[pri:0, instance:JpetStoreTests.BuyFishProduct@642a7222]" started-at="2025-02-15T11:51:22 IST" name="loginAndClickOnFishProduct" finished-at="2025-02-15T11:51:29 IST" duration-ms="6720" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAndClickOnFishProduct -->
-        <test-method signature="addAngelFishToCart()[pri:1, instance:JpetStoreTests.BuyFishProduct@5c6648b0]" started-at="2025-02-15T09:37:32 IST" name="addAngelFishToCart" finished-at="2025-02-15T09:37:51 IST" duration-ms="19155" status="PASS">
+        <test-method signature="addAngelFishToCart()[pri:1, instance:JpetStoreTests.BuyFishProduct@642a7222]" started-at="2025-02-15T11:51:29 IST" name="addAngelFishToCart" finished-at="2025-02-15T11:51:48 IST" duration-ms="19437" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Thank you, your order has been submitted.]]>
             </line>
           </reporter-output>
         </test-method> <!-- addAngelFishToCart -->
-        <test-method is-config="true" signature="close()[pri:0, instance:JpetStoreTests.BuyFishProduct@5c6648b0]" started-at="2025-02-15T09:37:51 IST" name="close" finished-at="2025-02-15T09:37:53 IST" duration-ms="2164" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:JpetStoreTests.BuyFishProduct@642a7222]" started-at="2025-02-15T11:51:48 IST" name="close" finished-at="2025-02-15T11:51:50 IST" duration-ms="2194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- JpetStoreTests.BuyFishProduct -->
       <class name="JpetStoreTests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:JpetStoreTests.LoginTest@2a65fe7c]" started-at="2025-02-15T09:37:03 IST" name="setup" finished-at="2025-02-15T09:37:08 IST" duration-ms="5762" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:JpetStoreTests.LoginTest@2fb0623e]" started-at="2025-02-15T11:51:02 IST" name="setup" finished-at="2025-02-15T11:51:08 IST" duration-ms="5603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="registrationForm()[pri:0, instance:JpetStoreTests.LoginTest@2a65fe7c]" started-at="2025-02-15T09:37:08 IST" name="registrationForm" finished-at="2025-02-15T09:37:25 IST" duration-ms="16143" status="PASS">
+        <test-method signature="registrationForm()[pri:0, instance:JpetStoreTests.LoginTest@2fb0623e]" started-at="2025-02-15T11:51:08 IST" name="registrationForm" finished-at="2025-02-15T11:51:22 IST" duration-ms="14486" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[SignIn is clicked]]>
             </line>
             <line>
-              <![CDATA[Username :: admin06c2xPygoR]]>
+              <![CDATA[Username :: adminIF8wgzx8dP]]>
             </line>
             <line>
               <![CDATA[Account Successfully Created]]>
@@ -63,7 +63,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- registrationForm -->
-        <test-method is-config="true" signature="close()[pri:0, instance:JpetStoreTests.LoginTest@2a65fe7c]" started-at="2025-02-15T09:37:53 IST" name="close" finished-at="2025-02-15T09:37:55 IST" duration-ms="2149" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:JpetStoreTests.LoginTest@2fb0623e]" started-at="2025-02-15T11:51:50 IST" name="close" finished-at="2025-02-15T11:51:53 IST" duration-ms="2142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

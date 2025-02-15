@@ -131,6 +131,21 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">JpetStoreTests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationForm">
+                  </a> <!-- registrationForm -->
+                  <span class="method-name">registrationForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">JpetStoreTests.BuyFishProduct</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -150,21 +165,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">JpetStoreTests.LoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="registrationForm">
-                  </a> <!-- registrationForm -->
-                  <span class="method-name">registrationForm</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -175,6 +175,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;JpetStoreTests.LoginTest&quot;/&gt;
@@ -222,20 +225,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addAngelFishToCart')
 data.setCell(0, 2, 'JpetStoreTests.BuyFishProduct')
-data.setCell(0, 3, 19314);
+data.setCell(0, 3, 19406);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'registrationForm')
 data.setCell(1, 2, 'JpetStoreTests.LoginTest')
-data.setCell(1, 3, 14402);
+data.setCell(1, 3, 17760);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'loginAndClickOnFishProduct')
 data.setCell(2, 2, 'JpetStoreTests.BuyFishProduct')
-data.setCell(2, 3, 6499);
+data.setCell(2, 3, 6690);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -247,18 +250,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">addAngelFishToCart</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Thank you, your order has been submitted.</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">registrationForm</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">SignIn is clicked</span>
-                <span class="reporter-method-output">Username :: adminYEMdDwzg0N</span>
+                <span class="reporter-method-output">Username :: adminUPHAXqcijG</span>
                 <span class="reporter-method-output">Account Successfully Created</span>
                 <span class="reporter-method-output">ActualMsg:: Welcome Michael! :: + ExpectedMsg:: Welcome Michael!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addAngelFishToCart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Thank you, your order has been submitted.</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -286,33 +289,33 @@ return data;
               <div class="chronological-class-name">JpetStoreTests.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
-                <span class="method-start">7266 ms</span>
+                <span class="method-start">7464 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">registrationForm</span>
-                <span class="method-start">12684 ms</span>
+                <span class="method-start">13756 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">JpetStoreTests.BuyFishProduct</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginAndClickOnFishProduct</span>
-                <span class="method-start">27086 ms</span>
+                <span class="method-start">31525 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">addAngelFishToCart</span>
-                <span class="method-start">33587 ms</span>
+                <span class="method-start">38215 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">52902 ms</span>
+                <span class="method-start">57623 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">JpetStoreTests.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">55059 ms</span>
+                <span class="method-start">59865 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
