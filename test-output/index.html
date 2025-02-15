@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\harik\OneDrive\Desktop\seleniumPractice\CapstoneProject\BuyFish.xml</span>
+                    <span>C:\Users\harik\OneDrive\Desktop\seleniumPractice\CapstoneProject\JPetStoreRunnerTestNG.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,6 +109,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="JpetStoreTests.BuyFishProduct" class="method navigator-link" hash-for-method="loginAndClickOnFishProduct">loginAndClickOnFishProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="JpetStoreTests.LoginTest" class="method navigator-link" hash-for-method="registrationForm">registrationForm</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -145,10 +150,25 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">JpetStoreTests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationForm">
+                  </a> <!-- registrationForm -->
+                  <span class="method-name">registrationForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\harik\OneDrive\Desktop\seleniumPractice\CapstoneProject\BuyFish.xml</span>
+            <span class="header-content">C:\Users\harik\OneDrive\Desktop\seleniumPractice\CapstoneProject\JPetStoreRunnerTestNG.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -157,6 +177,7 @@
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;JpetStoreTests.LoginTest&quot;/&gt;
       &lt;class name=&quot;JpetStoreTests.BuyFishProduct&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
@@ -171,7 +192,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -197,20 +218,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addAngelFishToCart')
 data.setCell(0, 2, 'JpetStoreTests.BuyFishProduct')
-data.setCell(0, 3, 23972);
+data.setCell(0, 3, 19314);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginAndClickOnFishProduct')
-data.setCell(1, 2, 'JpetStoreTests.BuyFishProduct')
-data.setCell(1, 3, 6132);
+data.setCell(1, 1, 'registrationForm')
+data.setCell(1, 2, 'JpetStoreTests.LoginTest')
+data.setCell(1, 3, 14402);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginAndClickOnFishProduct')
+data.setCell(2, 2, 'JpetStoreTests.BuyFishProduct')
+data.setCell(2, 3, 6499);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -225,6 +250,15 @@ return data;
               <span class="reporter-method-name">addAngelFishToCart</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Thank you, your order has been submitted.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">registrationForm</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SignIn is clicked</span>
+                <span class="reporter-method-output">Username :: adminYEMdDwzg0N</span>
+                <span class="reporter-method-output">Account Successfully Created</span>
+                <span class="reporter-method-output">ActualMsg:: Welcome Michael! :: + ExpectedMsg:: Welcome Michael!</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -247,17 +281,38 @@ return data;
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JpetStoreTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">7266 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">registrationForm</span>
+                <span class="method-start">12684 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JpetStoreTests.BuyFishProduct</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginAndClickOnFishProduct</span>
-                <span class="method-start">5568 ms</span>
+                <span class="method-start">27086 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">addAngelFishToCart</span>
-                <span class="method-start">11705 ms</span>
+                <span class="method-start">33587 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">35679 ms</span>
+                <span class="method-start">52902 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">JpetStoreTests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">55059 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -37,9 +37,9 @@ public class PaymentPage {
 		orderConfirmButton.click();
 		Thread.sleep(3000);
 	}
-	
+
 	public void validateOrderCofirmMsg() {
-		String msg=orderConfirmMsg.getText();
+		String msg = orderConfirmMsg.getText();
 		Assert.assertEquals(msg, "Thank you, your order has been submitted.");
 		Assert.assertTrue(orderConfirmMsg.isDisplayed(), "Thank you, your order has been submitted.");
 		Reporter.log("Thank you, your order has been submitted.");

@@ -18,9 +18,6 @@ import JPetStorePages.SignUpPage;
 import JPetStorePages.WelcomePage;
 
 public class LoginTest extends BaseTest {
-	public static ExtentReports extent;
-	public static ExtentTest test;
-	private ExtentSparkReporter spark;
 	HomePage hp;
 	LoginPage lp;
 	WelcomePage wp;
@@ -28,17 +25,11 @@ public class LoginTest extends BaseTest {
 
 	@BeforeTest
 	public void setup() throws IOException, InterruptedException {
-		spark = new ExtentSparkReporter("./target/ExtentReportsGoogle1.html");
-		extent = new ExtentReports();
-		extent.attachReporter(spark);
-		System.out.println("setup method executed");
 		getWebDriver();
 	}
 
 	@Test
 	public void registrationForm() throws InterruptedException, IOException { // perform sign-up and sign-in
-		test = extent.createTest("Google search");// crating an extent step in html
-		test.log(Status.INFO, "Launched Browser");
 		sp = new SignUpPage(driver);
 		sp.clickSignIn();
 		String userName = sp.fillUserInformation();

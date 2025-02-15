@@ -24,19 +24,19 @@ public class FishPage {
 	public WebElement angelFish;
 	@FindBy(xpath = "//*[@href=\"/cart/addItemToCart?itemId=EST-1\"]")
 	public WebElement largeAngelFish;
-	
-	
 
 	// methods
 
 	public void validateFishPage() {
-		String text=fishText.getText();
+		String text = fishText.getText();
 		Assert.assertEquals(text, "Fish");
 	}
+
 	public void clickOnAngelFish() throws InterruptedException {
 		angelFish.click();
 		Thread.sleep(3000);
 	}
+
 	public void clickOnLargeAngelFish() throws InterruptedException {
 		largeAngelFish.click();
 		Thread.sleep(3000);

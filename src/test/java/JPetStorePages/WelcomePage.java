@@ -20,7 +20,7 @@ public class WelcomePage {
 	public WebElement welcomeContent;
 	@FindBy(linkText = "My Account")
 	public WebElement myAccount;
-	@FindBy(linkText="Fish")
+	@FindBy(linkText = "Fish")
 	public WebElement fish;
 
 	// method or function
@@ -30,6 +30,7 @@ public class WelcomePage {
 		text.contains("Welcome");
 		System.out.println(text);
 	}
+
 	public void clickOnFish() throws InterruptedException {
 		fish.click();
 		Thread.sleep(3000);

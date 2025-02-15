@@ -3,22 +3,14 @@ package JpetStoreTests;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
-
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.google.common.io.Files;
 
 public class BaseTest {
 	public WebDriver driver = null;
-	public static ExtentReports extent;
-	public static ExtentTest test;
-	private ExtentSparkReporter spark;
 
 	public void webPagesIntialization() {
 
@@ -38,18 +30,10 @@ public class BaseTest {
 		}
 	}
 
-	public void setupExtent() {
-		// Initialize ExtentReports and attach the reporter
-		spark = new ExtentSparkReporter("./target/ExtentReport1.html");
-		extent = new ExtentReports();
-		extent.attachReporter(spark);
-		System.out.println("setup method executed");
-	}
-
 	public void closeBrowser() throws InterruptedException// close browser function
 	{
 		Thread.sleep(2000);
-		driver.close();
+		driver.quit();
 	}
 
 	public void takeScreenShot() throws IOException {
